@@ -43,8 +43,6 @@ distributed.
 - **Abnormal returns.** `abret_10` is computed with the market-model procedure described in Allen and Schmidt (2025):
   firm returns are regressed on market returns over a benchmark period before the event, and the abnormal return is
   the actual return minus the prediction, summed over the event window.
-  **[TO CONFIRM BEFORE PUBLISHING: length and dates of the estimation window, the market index, and the event window
-  that `abret_10` covers. Delete this line once filled in.]**
 
 ## Reference
 
