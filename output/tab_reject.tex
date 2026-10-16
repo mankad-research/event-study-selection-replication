@@ -1,0 +1,33 @@
+\begin{table}[t]
+\centering
+\caption{Rejection rate of $H_0:\gamma=0$ at the 5\% level (supplementary sample $=$ 20\% of the original; 800 replications per cell). \emph{Heckman} uses the corrected two-step standard errors of \citet{Heckman79}; \emph{Proposed ($Q$ known)} is $\hat\gamma_Q$ with the standard error of Section~\ref{sec:correction}; \emph{Proposed ($Q$ unknown)} is the likelihood estimator of Section~\ref{sec:mle} with Wald standard errors. Panel B repeats the $\gamma=0$ case with $\varepsilon_i$ drawn from a Student-$t$ distribution rescaled to the same variance.}
+\label{tab:reject}
+\begin{tabular}{llcccc}
+\toprule
+& & & & \multicolumn{2}{c}{Proposed} \\ \cmidrule(lr){5-6}
+Selection preference & $\gamma$ / Errors & None & Heckman & $Q$ known & $Q$ unknown \\
+\midrule
+\multicolumn{6}{l}{\emph{Panel A: Normal errors}} \\
+Favors positive deviations & $-0.02$ & 1.000 & 1.000 & 1.000 & 1.000 \\
+                           & $\phantom{-}0.00$ & 0.915 & 0.247 & 0.048 & 0.046 \\
+                           & $\phantom{-}0.02$ & 1.000 & 0.863 & 1.000 & 1.000 \\
+Favors negative deviations & $-0.02$ & 1.000 & 0.892 & 1.000 & 1.000 \\
+                           & $\phantom{-}0.00$ & 0.926 & 0.285 & 0.050 & 0.045 \\
+                           & $\phantom{-}0.02$ & 1.000 & 1.000 & 1.000 & 1.000 \\
+Indifferent to direction   & $-0.02$ & 1.000 & 0.998 & 1.000 & 1.000 \\
+                           & $\phantom{-}0.00$ & 0.072 & 0.049 & 0.070 & 0.070 \\
+                           & $\phantom{-}0.02$ & 1.000 & 0.998 & 1.000 & 1.000 \\
+\addlinespace
+\multicolumn{6}{l}{\emph{Panel B: fat-tailed errors, $\gamma=0$}} \\
+Favors positive deviations & $t(10)$ & 0.911 & 0.205 & 0.045 & 0.061 \\
+                           & $t(5)$ & 0.901 & 0.145 & 0.051 & 0.050 \\
+                           & $t(3)$ & 0.874 & 0.122 & 0.059 & 0.051 \\
+Favors negative deviations & $t(10)$ & 0.912 & 0.224 & 0.056 & 0.058 \\
+                           & $t(5)$ & 0.915 & 0.152 & 0.049 & 0.044 \\
+                           & $t(3)$ & 0.853 & 0.119 & 0.056 & 0.049 \\
+Indifferent to direction   & $t(10)$ & 0.054 & 0.039 & 0.059 & 0.054 \\
+                           & $t(5)$ & 0.046 & 0.060 & 0.049 & 0.050 \\
+                           & $t(3)$ & 0.046 & 0.051 & 0.060 & 0.048 \\
+\bottomrule
+\end{tabular}
+\end{table}

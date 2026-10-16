@@ -1,0 +1,16 @@
+Propositions 1-2: formula vs Monte Carlo (z should be within +-2)
+  P1 (-5, 300, 100, 4, -0.02, 0.05, 0.0, 1.0): formula -0.001696  MC -0.001698  z=+0.06
+  P1 (-5, 100, 300, 4, 0.02, 0.05, 0.3, 0.5): formula +0.003989  MC +0.003985  z=+0.11
+  P1 (-2, 40, 60, 1, 0.01, 0.05, -0.6, 0.0): formula -0.011470  MC -0.011483  z=+0.24
+  P1 (-1, 20, 10, 1, 0.0, 0.1, 0.7, -0.5): formula +0.097206  MC +0.097200  z=+0.09
+  P2 (-5, 300, -50, 4, -0.02, 0.05, 0.0, 1.0): formula +0.054176  MC +0.054154  z=+0.94
+  P2 (-2, 40, -20, 1, 0.01, 0.05, 0.5, 0.0): formula +0.057512  MC +0.057485  z=+0.96
+  P2 (0.3, 30, -60, 0.5, 0.02, 0.05, 0.6, 0.3): formula +0.026960  MC +0.026943  z=+0.79
+Lemma 1: bias at (beta, rho) equals bias at reduced-form (b, 0)
+  rho=0.4: structural -0.001517  reduced form -0.001517
+  rho=0.7: structural +0.097206  reduced form +0.097206
+  rho=0.8: structural +0.054114  reduced form +0.054114
+Limit beta2 -> 0: Prop 1 (b2>0) and Prop 2 (b2<0) meet; classical IMR only when b1=b2=0
+  |b2|=0.1: P1 +0.108461  P2 +0.108617
+  |b2|=0.01: P1 +0.108532  P2 +0.108547
+  |b2|=0.001: P1 +0.108539  P2 +0.108540

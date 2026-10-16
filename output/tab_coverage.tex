@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Bias, standard errors, and 95\% confidence-interval coverage, summarized over the nine designs of Figure~\ref{fig:main} (at least 400 replications per design and supplementary-sample size). SE/SD is the average standard error divided by the Monte Carlo standard deviation of $\hat\gamma_Q$, averaged over designs; coverage is the average over designs, with the minimum in parentheses; LR intervals for the likelihood estimator of Section~\ref{sec:mle} invert its likelihood-ratio test.}
+\label{tab:coverage}
+\begin{tabular}{lccccc}
+\toprule
+& \multicolumn{3}{c}{Proposed ($Q$ known)} & \multicolumn{2}{c}{Proposed ($Q$ unknown, likelihood)} \\ \cmidrule(lr){2-4}\cmidrule(lr){5-6}
+Supplement & Max $|$bias$|$ & SE/SD & Coverage & Coverage (Wald) & Coverage (LR) \\
+\midrule
+5\% & 0.0002 & 1.01 & 0.949 (0.927) & 0.947 (0.942) & 0.949 (0.943) \\
+10\% & 0.0002 & 1.01 & 0.952 (0.932) & 0.943 (0.925) & 0.945 (0.927) \\
+15\% & 0.0001 & 1.01 & 0.956 (0.945) & 0.952 (0.930) & 0.953 (0.932) \\
+20\% & 0.0000 & 0.99 & 0.949 (0.930) & 0.949 (0.930) & 0.949 (0.929) \\
+30\% & 0.0001 & 1.00 & 0.954 (0.930) & 0.948 (0.938) & 0.951 (0.940) \\
+40\% & 0.0001 & 1.00 & 0.946 (0.927) & 0.944 (0.925) & 0.944 (0.922) \\
+50\% & 0.0001 & 0.98 & 0.945 (0.935) & 0.948 (0.935) & 0.950 (0.938) \\
+\bottomrule
+\end{tabular}
+\end{table}

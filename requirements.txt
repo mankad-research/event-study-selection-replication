@@ -1,0 +1,7 @@
+# Tested with Python 3.12.3
+numpy>=1.26        # tested 2.4.4
+scipy>=1.11        # tested 1.17.1
+pandas>=2.0        # tested 3.0.2
+statsmodels>=0.14  # tested 0.15.0
+matplotlib>=3.7    # tested 3.10.8
+jax[cpu]>=0.4.30   # tested 0.11.2 (likelihood estimator only)
